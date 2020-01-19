@@ -1,0 +1,16 @@
+# execute as @s[tag=!playing] at @s run stopsound @a[distance=..3] * minecraft:block.note_block.bass
+# execute as @s[tag=!playing] at @s run stopsound @a[distance=..3] * minecraft:block.note_block.snare
+# execute as @s[tag=!playing] at @s run stopsound @a[distance=..3] * minecraft:block.note_block.hat
+# execute as @s[tag=!playing] at @s run stopsound @a[distance=..3] * minecraft:block.note_block.basedrum
+# execute as @s[tag=!playing] at @s run stopsound @a[distance=..3] * minecraft:block.note_block.bell
+# execute as @s[tag=!playing] at @s run stopsound @a[distance=..3] * minecraft:block.note_block.flute
+# execute as @s[tag=!playing] at @s run stopsound @a[distance=..3] * minecraft:block.note_block.chime
+# execute as @s[tag=!playing] at @s run stopsound @a[distance=..3] * minecraft:block.note_block.guitar
+# execute as @s[tag=!playing] at @s run stopsound @a[distance=..3] * minecraft:block.note_block.xylophone
+# execute as @s[tag=!playing] at @s run stopsound @a[distance=..3] * minecraft:block.note_block.iron_xylophone
+# execute as @s[tag=!playing] at @s run stopsound @a[distance=..3] * minecraft:block.note_block.cow_bell
+# execute as @s[tag=!playing] at @s run stopsound @a[distance=..3] * minecraft:block.note_block.didgeridoo
+# execute as @s[tag=!playing] at @s run stopsound @a[distance=..3] * minecraft:block.note_block.bit
+# execute as @s[tag=!playing] at @s run stopsound @a[distance=..3] * minecraft:block.note_block.banjo
+# execute as @s[tag=!playing] at @s run stopsound @a[distance=..3] * minecraft:block.note_block.pling
+# execute as @s[tag=!playing] at @s run stopsound @a[distance=..3] * minecraft:block.note_block.harp

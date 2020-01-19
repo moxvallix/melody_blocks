@@ -1,4 +1,4 @@
-Melody Blocks: Alpha 1.0
+Melody Blocks: Alpha 1.1
 by Moxvallix
 https://namemc.com/profile/Moxvallix
 moxvallix@gmail.com
@@ -11,12 +11,14 @@ Each melody block can hold 16 notes, and can be powered with a redstone signal t
 Current features:
 - 16 Notes
 - Can be powered to play
-- Will pass on power to repeater after finished playing (Buggy, Not Recommended)
 - Can play back the melody you have made, by pressing "Test Melody"
+- Redstone functionality (Buttons, dust, comparators and repeaters)
 
 Future features:
 - Instruments based on block below (Like a noteblock)
-- Full redstone functionality
 - Per-row timing
+
+Changes in this version:
+Relies now on my Redstone Interactions datapack, to add improved redstone functionality.
 
 Feel free to give any suggestions for future features, as I'm hoping to make this a very versatile tool.

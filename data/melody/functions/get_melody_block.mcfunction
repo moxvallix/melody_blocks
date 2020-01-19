@@ -1,4 +1,4 @@
 #Give Melody Block
-execute as @s[nbt={SelectedItem:{id:"minecraft:armor_stand"}}] run give @p minecraft:guardian_spawn_egg{display:{Name:'{"text":"Melody Block","italic":false}',Lore:['{"text":"Place above a jukebox, then paste in a melody!","color":"gold","italic":false}']},EntityTag:{id:"minecraft:armor_stand",CustomNameVisible:1b,Small:1b,PersistenceRequired:1b,Tags:["melody_block"]}} 1
-clear @s[nbt={SelectedItem:{id:"minecraft:armor_stand"}}] minecraft:armor_stand 1
+execute at @s if block ~ ~-1 ~ minecraft:note_block unless entity @e[tag=melody_block,distance=..2] run summon minecraft:armor_stand ~ ~-1 ~ {Invulnerable:1b,Small:1b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["melody_block"],CustomName:'{"text":"Melody Block","color":"white","bold":true,"italic":false}'}
+title @s actionbar {"text":"Melody Block Created!","color":"gold"}
 scoreboard players set @s melody_trigger 0

@@ -34,4 +34,22 @@ execute if entity @s[scores={melody_trigger=34}] run scoreboard players set @s p
 execute if entity @s[scores={melody_trigger=36}] run scoreboard players set @s pitch_15 -1
 execute if entity @s[scores={melody_trigger=38}] run scoreboard players set @s pitch_16 -1
 
+#Titles
+execute if entity @s[scores={melody_trigger=7..8}] run title @s actionbar ["",{"text":"Note 1 Set [","color":"gold"},{"score":{"name":"*","objective":"note"},"color":"gold"},{"text":"]","color":"gold"}]
+execute if entity @s[scores={melody_trigger=9..10}] run title @s actionbar ["",{"text":"Note 2 Set [","color":"gold"},{"score":{"name":"*","objective":"note"},"color":"gold"},{"text":"]","color":"gold"}]
+execute if entity @s[scores={melody_trigger=11..12}] run title @s actionbar ["",{"text":"Note 3 Set [","color":"gold"},{"score":{"name":"*","objective":"note"},"color":"gold"},{"text":"]","color":"gold"}]
+execute if entity @s[scores={melody_trigger=13..14}] run title @s actionbar ["",{"text":"Note 4 Set [","color":"gold"},{"score":{"name":"*","objective":"note"},"color":"gold"},{"text":"]","color":"gold"}]
+execute if entity @s[scores={melody_trigger=15..16}] run title @s actionbar ["",{"text":"Note 5 Set [","color":"gold"},{"score":{"name":"*","objective":"note"},"color":"gold"},{"text":"]","color":"gold"}]
+execute if entity @s[scores={melody_trigger=17..18}] run title @s actionbar ["",{"text":"Note 6 Set [","color":"gold"},{"score":{"name":"*","objective":"note"},"color":"gold"},{"text":"]","color":"gold"}]
+execute if entity @s[scores={melody_trigger=19..20}] run title @s actionbar ["",{"text":"Note 7 Set [","color":"gold"},{"score":{"name":"*","objective":"note"},"color":"gold"},{"text":"]","color":"gold"}]
+execute if entity @s[scores={melody_trigger=21..22}] run title @s actionbar ["",{"text":"Note 8 Set [","color":"gold"},{"score":{"name":"*","objective":"note"},"color":"gold"},{"text":"]","color":"gold"}]
+execute if entity @s[scores={melody_trigger=23..24}] run title @s actionbar ["",{"text":"Note 9 Set [","color":"gold"},{"score":{"name":"*","objective":"note"},"color":"gold"},{"text":"]","color":"gold"}]
+execute if entity @s[scores={melody_trigger=25..26}] run title @s actionbar ["",{"text":"Note 10 Set [","color":"gold"},{"score":{"name":"*","objective":"note"},"color":"gold"},{"text":"]","color":"gold"}]
+execute if entity @s[scores={melody_trigger=27..28}] run title @s actionbar ["",{"text":"Note 11 Set [","color":"gold"},{"score":{"name":"*","objective":"note"},"color":"gold"},{"text":"]","color":"gold"}]
+execute if entity @s[scores={melody_trigger=29..30}] run title @s actionbar ["",{"text":"Note 12 Set [","color":"gold"},{"score":{"name":"*","objective":"note"},"color":"gold"},{"text":"]","color":"gold"}]
+execute if entity @s[scores={melody_trigger=31..32}] run title @s actionbar ["",{"text":"Note 13 Set [","color":"gold"},{"score":{"name":"*","objective":"note"},"color":"gold"},{"text":"]","color":"gold"}]
+execute if entity @s[scores={melody_trigger=33..34}] run title @s actionbar ["",{"text":"Note 14 Set [","color":"gold"},{"score":{"name":"*","objective":"note"},"color":"gold"},{"text":"]","color":"gold"}]
+execute if entity @s[scores={melody_trigger=35..36}] run title @s actionbar ["",{"text":"Note 15 Set [","color":"gold"},{"score":{"name":"*","objective":"note"},"color":"gold"},{"text":"]","color":"gold"}]
+execute if entity @s[scores={melody_trigger=37..38}] run title @s actionbar ["",{"text":"Note 16 Set [","color":"gold"},{"score":{"name":"*","objective":"note"},"color":"gold"},{"text":"]","color":"gold"}]
+
 scoreboard players set @s melody_trigger 0
