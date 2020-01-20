@@ -25,7 +25,6 @@ scoreboard objectives add play_note dummy
 scoreboard objectives add melody_row dummy
 scoreboard objectives add melody_tick dummy
 
-
 #Set Full Blanks
 scoreboard players set @a[tag=!keep_notes] pitch_1 -1
 scoreboard players set @a[tag=!keep_notes] pitch_2 -1
@@ -43,3 +42,7 @@ scoreboard players set @a[tag=!keep_notes] pitch_13 -1
 scoreboard players set @a[tag=!keep_notes] pitch_14 -1
 scoreboard players set @a[tag=!keep_notes] pitch_15 -1
 scoreboard players set @a[tag=!keep_notes] pitch_16 -1
+
+#Test for Redstone Interactions
+scoreboard objectives add redstone_install dummy
+execute unless entity @a[scores={redstone_install=1}] run function melody:warning

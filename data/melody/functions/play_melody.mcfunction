@@ -2,7 +2,6 @@ tag @s[tag=!playing] add playing
 scoreboard players add @s melody_row 1
 
 execute if entity @s[scores={melody_tick=1}] run schedule function melody:play_loop 0.1s
-execute if entity @s[scores={melody_tick=1}] run schedule function melody:play_loop 0.1s
 execute if entity @s[scores={melody_tick=2}] run schedule function melody:play_loop 0.2s
 execute if entity @s[scores={melody_tick=3}] run schedule function melody:play_loop 0.3s
 execute if entity @s[scores={melody_tick=4}] run schedule function melody:play_loop 0.4s

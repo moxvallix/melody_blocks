@@ -7,6 +7,6 @@ execute as @a[nbt={SelectedItem:{id:"minecraft:note_block"}}] if entity @s[nbt={
 execute as @e[tag=melody_block] at @s if entity @a[distance=..4] run data modify entity @s CustomNameVisible set value 1b
 execute as @e[tag=melody_block] at @s if entity @a[distance=4..] run data modify entity @s CustomNameVisible set value 0b
 execute as @e[tag=melody_block] run function melody:power_detect
-execute as @e[tag=melody_block] run function melody:silence
+execute as @e[tag=melody_block] run function melody:tick_delay
 tag @e[tag=melody_block] add use_redstone
-execute as @e[tag=!playing,scores={powered=15}] at @s run function melody:play_melody
+execute as @e[tag=!playing,scores={powered=15},tag=melody_block] at @s run function melody:play_melody
