@@ -8,5 +8,6 @@ execute as @e[tag=melody_block] at @s if entity @a[distance=..4] run data modify
 execute as @e[tag=melody_block] at @s if entity @a[distance=4..] run data modify entity @s CustomNameVisible set value 0b
 execute as @e[tag=melody_block] run function melody:power_detect
 execute as @e[tag=melody_block] run function melody:tick_delay
+function melody:instrument_detector
 tag @e[tag=melody_block] add use_redstone
 execute as @e[tag=!playing,scores={powered=15},tag=melody_block] at @s run function melody:play_melody

@@ -1,25 +1,16 @@
-execute at @s if entity @s[scores={play_note=0}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 0.5
-execute at @s if entity @s[scores={play_note=1}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 0.529732
-execute at @s if entity @s[scores={play_note=2}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 0.561231
-execute at @s if entity @s[scores={play_note=3}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 0.594604
-execute at @s if entity @s[scores={play_note=4}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 0.629961
-execute at @s if entity @s[scores={play_note=5}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 0.667420
-execute at @s if entity @s[scores={play_note=6}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 0.707107
-execute at @s if entity @s[scores={play_note=7}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 0.749154
-execute at @s if entity @s[scores={play_note=8}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 0.793701
-execute at @s if entity @s[scores={play_note=9}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 0.840896
-execute at @s if entity @s[scores={play_note=10}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 0.890899
-execute at @s if entity @s[scores={play_note=11}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 0.943874
-execute at @s if entity @s[scores={play_note=12}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 1
-execute at @s if entity @s[scores={play_note=13}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 1.059463
-execute at @s if entity @s[scores={play_note=14}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 1.122462
-execute at @s if entity @s[scores={play_note=15}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 1.189207
-execute at @s if entity @s[scores={play_note=16}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 1.259921
-execute at @s if entity @s[scores={play_note=17}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 1.334840
-execute at @s if entity @s[scores={play_note=18}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 1.414214
-execute at @s if entity @s[scores={play_note=19}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 1.498307
-execute at @s if entity @s[scores={play_note=20}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 1.587401
-execute at @s if entity @s[scores={play_note=21}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 1.681793
-execute at @s if entity @s[scores={play_note=22}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 1.781797
-execute at @s if entity @s[scores={play_note=23}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 1.887749
-execute at @s if entity @s[scores={play_note=24}] run playsound minecraft:block.note_block.harp block @a ~ ~ ~ 2 2
+execute at @s if entity @s[scores={instrument=1}] run function melody:notes/bass
+execute at @s if entity @s[scores={instrument=2}] run function melody:notes/snare
+execute at @s if entity @s[scores={instrument=3}] run function melody:notes/hat
+execute at @s if entity @s[scores={instrument=4}] run function melody:notes/basedrum
+execute at @s if entity @s[scores={instrument=5}] run function melody:notes/bell
+execute at @s if entity @s[scores={instrument=6}] run function melody:notes/flute
+execute at @s if entity @s[scores={instrument=7}] run function melody:notes/chime
+execute at @s if entity @s[scores={instrument=8}] run function melody:notes/guitar
+execute at @s if entity @s[scores={instrument=9}] run function melody:notes/xylophone
+execute at @s if entity @s[scores={instrument=10}] run function melody:notes/iron_xylophone
+execute at @s if entity @s[scores={instrument=11}] run function melody:notes/cow_bell
+execute at @s if entity @s[scores={instrument=12}] run function melody:notes/didgeridoo
+execute at @s if entity @s[scores={instrument=13}] run function melody:notes/bit
+execute at @s if entity @s[scores={instrument=14}] run function melody:notes/banjo
+execute at @s if entity @s[scores={instrument=15}] run function melody:notes/pling
+execute at @s if entity @s[scores={instrument=16}] run function melody:notes/harp

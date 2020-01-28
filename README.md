@@ -1,4 +1,4 @@
-Melody Blocks: Alpha 1.1
+Melody Blocks: Alpha 1.2
 by Moxvallix
 https://namemc.com/profile/Moxvallix
 moxvallix@gmail.com
@@ -13,12 +13,12 @@ Current features:
 - Can be powered to play
 - Can play back the melody you have made, by pressing "Test Melody"
 - Redstone functionality (Buttons, dust, comparators and repeaters)
+- Instruments based on block below (Like a noteblock)
 
 Future features:
-- Instruments based on block below (Like a noteblock)
 - Per-row timing
 
 Changes in this version:
-Relies now on my Redstone Interactions datapack, to add improved redstone functionality.
+Added support for instruments.
 
 Feel free to give any suggestions for future features, as I'm hoping to make this a very versatile tool.

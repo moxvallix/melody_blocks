@@ -25,6 +25,9 @@ scoreboard objectives add play_note dummy
 scoreboard objectives add melody_row dummy
 scoreboard objectives add melody_tick dummy
 
+#Instrument
+scoreboard objectives add instrument dummy
+
 #Set Full Blanks
 scoreboard players set @a[tag=!keep_notes] pitch_1 -1
 scoreboard players set @a[tag=!keep_notes] pitch_2 -1

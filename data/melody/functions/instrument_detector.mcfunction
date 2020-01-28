@@ -1,0 +1,16 @@
+execute as @e[tag=melody_block] run scoreboard players set @s instrument 16
+execute as @e[tag=melody_block] at @s if block ~ ~-1 ~ #minecraft:wooden run scoreboard players set @s instrument 1
+execute as @e[tag=melody_block] at @s if block ~ ~-1 ~ #minecraft:powder run scoreboard players set @s instrument 2
+execute as @e[tag=melody_block] at @s if block ~ ~-1 ~ #minecraft:impermeable run scoreboard players set @s instrument 3
+execute as @e[tag=melody_block] at @s if block ~ ~-1 ~ #minecraft:stone run scoreboard players set @s instrument 4
+execute as @e[tag=melody_block] at @s if block ~ ~-1 ~ minecraft:gold_block run scoreboard players set @s instrument 5
+execute as @e[tag=melody_block] at @s if block ~ ~-1 ~ minecraft:clay run scoreboard players set @s instrument 6
+execute as @e[tag=melody_block] at @s if block ~ ~-1 ~ minecraft:packed_ice run scoreboard players set @s instrument 7
+execute as @e[tag=melody_block] at @s if block ~ ~-1 ~ #minecraft:wool run scoreboard players set @s instrument 8
+execute as @e[tag=melody_block] at @s if block ~ ~-1 ~ minecraft:bone_block run scoreboard players set @s instrument 9
+execute as @e[tag=melody_block] at @s if block ~ ~-1 ~ minecraft:iron_block run scoreboard players set @s instrument 10
+execute as @e[tag=melody_block] at @s if block ~ ~-1 ~ minecraft:soul_sand run scoreboard players set @s instrument 11
+execute as @e[tag=melody_block] at @s if block ~ ~-1 ~ minecraft:pumpkin run scoreboard players set @s instrument 12
+execute as @e[tag=melody_block] at @s if block ~ ~-1 ~ minecraft:emerald_block run scoreboard players set @s instrument 13
+execute as @e[tag=melody_block] at @s if block ~ ~-1 ~ minecraft:hay_block run scoreboard players set @s instrument 14
+execute as @e[tag=melody_block] at @s if block ~ ~-1 ~ minecraft:glowstone run scoreboard players set @s instrument 15
